@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(20, 13, 13);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    /* background-color: violet; */
+    display: flex;
+}
+.container-header{
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    /* background-color: blanchedalmond; */
+    line-height: 80px;
+}
+.logo-h{
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: rgb(252, 247, 247);
+    font-weight: bold;
+}
+.nav{
+    width: 50%;
+    height: 80px;
+    /* background-color:teal ; */
+    display: flex;
+}
+.nav-item{
+    width: 20%;
+    height: 80px;
+    /* background-color: thistle; */
+    text-align: center;
+    line-height: 80px;
+    color: rgb(248, 244, 244);
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: rgb(247, 181, 181);
+}
+
+/* banner start */
+
+.banner{
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.overlay{
+     display: flex;
+    justify-content: center;
+}
+.banner-text{
+    background-color: rgba(241, 237, 237,0.1);
+    font-family: "Montserrat";
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	letter-spacing: 1px;
+}
+.padd{
+    padding: 40px;
+    /* background-color:salmon; */
+}
+.banner_title{
+    /* font-size: 60px;
+    text-transform: uppercase; */
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+/* services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(27, 24, 24, 0.973);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services_container{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service{
+    /* background-color: seagreen; */
+    height: 300px;
+    width: 47%;
+    display: flex;
+    margin-top: 18px;
+}
+.service_heading{
+    color: silver;
+}
+.service_img{
+    height: 300px;
+    width: 40%;
+    /* background-color: seashell; */
+    display: flex;
+    overflow: hidden;
+}
+.service_detail{
+    height: 300px;
+    width: 60%;
+    /* background-color: silver; */
+    display: flex;
+    align-items: center;
+}
+.service_padd{
+    padding: 20px;
+}
+.service_title{
+    color:white;
+}
+.service_dcr{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: white;
+}
+.service_btn{
+    padding: 10px;
+    padding-left: -5px;
+    margin: -3px;
+    cursor: pointer;
+}
+
+/* who are we */
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(26, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Segoe UI;
+    color: white;
+}
+
+.about_container{
+    margin-top: 30px;
+    display: inline;
+    line-height: 30px;
+}
+
+.start_text{
+    font-size: 25px;
+    color: rgb(248, 221, 221);
+}
+
+/* for highlight */
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(24, 22, 22, 0.973);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.highlight_container{
+    justify-content: space-evenly;
+}
+
+.high_ele{
+    background-color: rgb(26, 25, 25);
+    width: 22%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+}
+
+.high_title{
+    font-size: 60px;
+}
+.high_dec{
+    font-size: 24px;
+}
+
+/* for qoute */
+
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+    color: white;
+}
+
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.quote_btn{
+    padding: 10px;
+    padding-left: -5px;
+    margin: -3px;
+    cursor: pointer;
+}
+
+/* portfolio */
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoe UI;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.portfolio_container{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.projects{
+   width: 25%;
+   height: 290px;
+   /* background-color: blanchedalmond; */
+   margin-top: 10px;
+}
+
+.project_1{
+    background-image: url(./project_img/project_1.jpg);
+    background-size: cover;
+}
+.project_2{
+    background-image: url(./project_img/project_2.jpg);
+    background-size: cover;
+}
+.project_3{
+    background-image: url(./project_img/project_3.jpg);
+    background-size: cover;
+}
+.project_4{
+    background-image: url(./project_img/project_4.jpg);
+    background-size: cover;
+}
+.project_5{
+    background-image: url(./project_img/project_5.jpg);
+    background-size: cover;
+}
+.project_6{
+    background-image: url(./project_img/project_6.jpg);
+    background-size: cover;
+}
+.project_7{
+    background-image: url(./project_img/project_7.jpg);
+    background-size: cover;
+}
+.project_8{
+    background-image: url(./project_img/project_8.jpg);
+    background-size: cover;
+}
+.project_title{
+    background-color: rgba(128, 128, 128, 0.336);
+    width: 100%;
+    height: 90px;
+    text-indent: 30px;
+    line-height: 130px;
+    color: rgb(9 0 0 / 86%);
+    font-family: Segoe UI;
+    cursor: pointer;
+    transition: .4s;
+}
+.project_title:hover{
+    height: 280px;
+}
+
+/* for footer */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child{
+    width: 25%;
+    height: 300px;
+    /* background-color: rgb(20, 126, 20); */
+    font-family: Segoe UI;
+    display: flex;
+    justify-content: center;
+}
+.footer_child_1{
+    color: white;
+    align-items: center;
+    font-size: 30px;
+}
+ul{
+    margin-top: 40px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+.first{
+    font-size: 20px;
+}
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_container{
+    justify-content: space-between;
+    width: 75%;
+}
+.social_icon{
+    height: 40px;
+    width: 40px;
+    /* background-color: wheat; */
+    background-size: cover;
+}
+.sc1{
+    background-image: url(./socialMedia_icons/instagram.png);
+}
+.sc2{
+    background-image: url(./socialMedia_icons/fb.png);
+}
+.sc3{
+    background-image: url(./socialMedia_icons/gmail.png);
+}
+.sc4{
+    background-image: url(./socialMedia_icons/linkdin.png);
+}
